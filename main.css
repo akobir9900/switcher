@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://i.ytimg.com/vi/Wr-CRKsTYGs/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.switch{
+    width: 180px;
+    height: 80px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 85px;
+    position: relative;
+    top: 520px;
+    left: 50px;
+    
+}
+.case{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    transition: .5s;
+    background-image: url("https://www.thefirewithin.org.uk/img/projects/light-night.jpg");
+    background-position: center;
+    background-size: cover;
+}
